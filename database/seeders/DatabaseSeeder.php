@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             ComponentSeeder::class,
             DepartmentSeeder::class,
-            SalesPointSeeder::class,
+            // SalesPointSeeder::class,
         ]);
     }
 }

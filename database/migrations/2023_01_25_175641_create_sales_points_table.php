@@ -26,7 +26,7 @@ return new class extends Migration
             $table->string('province', 50);
             $table->string('state', 50);
             $table->string('postcode', 10);
-            $table->string('taxonomy', 1000);
+            $table->string('taxonomy', 1000)->nullable();
             $table->string('spc', 50);
             $table->unsignedDecimal('latitude', $precision = 20, $scale = 18);
             $table->unsignedDecimal('longitude', $precision = 20, $scale = 18);
