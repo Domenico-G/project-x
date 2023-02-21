@@ -1,0 +1,1 @@
+import{a as t}from"./AuthenticatedLayout.b972dca3.js";import{e,f as s,c as a,g as o}from"./app.b8f8a772.js";const r=o("h2",{class:"font-semibold text-xl text-gray-800 leading-tight"}," Settings ",-1),f={__name:"UserSettings",setup(c){return(n,_)=>(a(),e(t,null,{default:s(()=>[r]),_:1}))}};export{f as default};
